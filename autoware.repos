@@ -100,6 +100,10 @@ repositories:
     url: https://github.com/autowarefoundation/ros2_socketcan
     version: main
   # sensor_kit
+  sensor_kit/kitt_sensor_kit_launch:
+    type: git
+    url: https://github.com/fnozarian/kitt_sensor_kit_launch
+    version: main
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
@@ -117,6 +121,10 @@ repositories:
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
     version: 0.39.0
   # vehicle
+  vehicle/kitt_vehicle_launch:
+    type: git
+    url: https://github.com/fnozarian/kitt_vehicle_launch
+    version: main
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
@@ -125,6 +133,10 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/awsim_labs_vehicle_launch.git
     version: main
+  vehicle/external/kitt_vehicle_interface:
+    type: git
+    url: https://github.com/fnozarian/kitt_vehicle_interface
+    version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
@@ -132,5 +144,5 @@ repositories:
   # param
   param/autoware_individual_params:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
+    url: https://github.com/fnozarian/autoware_individual_params
     version: main
